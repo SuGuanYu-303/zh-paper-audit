@@ -1,0 +1,123 @@
+# 来源词表 · 科技 / 半导体 / 互联网
+#
+# 一行一个。用途同 sources.business.txt：命中即计入「来源清单」，
+# 用于前后稿守恒核验。
+#
+# 用法：默认加载 data/ 下全部 sources.*.txt。
+# 只想要某几张表时用 --sources 指定；自己的领域可以新建
+# data/sources.<领域>.txt，无需改代码。
+
+# ---- 综合 IT 研究 ----
+Gartner
+IDC
+Forrester
+Omdia
+Canalys
+Counterpoint
+Counterpoint Research
+Technavio
+MarketsandMarkets
+Grand View Research
+
+# ---- 半导体 ----
+SEMI
+Yole
+Yole Développement
+TrendForce
+集邦
+IC Insights
+VLSI Research
+TechInsights
+台积电
+TSMC
+三星电子
+Samsung
+SK海力士
+SK Hynix
+美光
+Micron
+ASML
+阿斯麦
+应用材料
+Applied Materials
+泛林
+Lam Research
+中芯国际
+SMIC
+华虹
+长电科技
+北方华创
+中微公司
+
+# ---- 芯片与终端 ----
+英伟达
+NVIDIA
+AMD
+英特尔
+Intel
+高通
+Qualcomm
+联发科
+MediaTek
+博通
+Broadcom
+ARM
+华为
+海思
+HiSilicon
+苹果
+Apple
+小米
+OPPO
+vivo
+荣耀
+
+# ---- 互联网 / 平台 ----
+Google
+谷歌
+Meta
+Microsoft
+微软
+Amazon
+亚马逊
+阿里
+阿里巴巴
+Alibaba
+腾讯
+Tencent
+字节跳动
+ByteDance
+百度
+Baidu
+美团
+Meituan
+拼多多
+PDD
+京东
+JD
+网易
+NetEase
+哔哩哔哩
+B站
+
+# ---- 政策与标准机构 ----
+工信部
+工业和信息化部
+科技部
+网信办
+中国信通院
+CAICT
+中国电子技术标准化研究院
+CESI
+电气电子工程师学会
+IEEE
+ACM
+ISO
+IEC
+ITU
+
+#
+# ---- 关于这份词表 ----
+# 这是种子集，不是全集：只保证「常见机构能被识别」，不保证覆盖率。
+# 你的领域没命中时，直接往下加一行即可，不用改代码。
+# 欢迎 PR：按上面的规则补充，保留不同写法（中文名 / 英文名 / 缩写）。

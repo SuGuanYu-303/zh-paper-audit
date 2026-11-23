@@ -1,0 +1,123 @@
+# 来源词表 · 商业 / 消费 / 营销
+#
+# 一行一个。命中即计入报告的「来源清单」，用于前后稿守恒核验
+# （改写时不许把来源改丢）。
+#
+# 添加规则：
+#   - 用户报告名而非常见词。写「贝恩」而不是「报告」。
+#   - 同一机构的不同写法都要列（贝恩 / Bain）。
+#   - 太短且易误匹配的缩写（如 EY、PwC）保留，因为中文语境下几乎不会
+#     作为普通词出现；若你的领域里会，注释掉即可。
+#
+# 文件格式：UTF-8，一行一条，# 开头为注释，空行忽略。
+
+# ---- 综合咨询 ----
+贝恩
+Bain
+麦肯锡
+McKinsey
+波士顿咨询
+BCG
+德勤
+Deloitte
+普华永道
+PwC
+安永
+EY
+毕马威
+KPMG
+埃森哲
+Accenture
+
+# ---- 市场研究 ----
+尼尔森
+Nielsen
+Kantar
+凯度
+Euromonitor
+欧睿
+Statista
+GfK
+益普索
+Ipsos
+Mintel
+Forrester
+Gartner
+IDC
+
+# ---- 中国市场 ----
+艾瑞
+艾瑞咨询
+易观
+易观分析
+QuestMobile
+艾媒
+艾媒咨询
+CBNData
+第一财经
+CMMR
+Mob研究院
+极光
+中国信通院
+中国互联网络信息中心
+CNNIC
+国家统计局
+
+# ---- 游戏 / 电竞 ----
+Newzoo
+Stream Hatchet
+Esports Charts
+Esports Earnings
+SuperData
+Sensor Tower
+data.ai
+App Annie
+伽马数据
+伽马
+游戏工委
+
+# ---- 时尚 / 奢侈品 ----
+Vogue Business
+Business of Fashion
+BoF
+WWD
+WGSN
+Lyst
+Edited
+贝恩奢侈品
+贝恩公司
+
+# ---- 现场娱乐 / 音乐 ----
+Live Nation
+Live Nation Entertainment
+Billboard
+Pollstar
+AEG
+
+# ---- 数字时尚 / 虚拟资产 ----
+DRESSX
+The Fabricant
+Dapper Labs
+
+# ---- 财经媒体 ----
+Bloomberg
+彭博
+Reuters
+路透
+Forbes
+福布斯
+经济学人
+Economist
+哈佛商业评论
+华尔街日报
+Financial Times
+金融时报
+36氪
+界面新闻
+财新
+
+#
+# ---- 关于这份词表 ----
+# 这是种子集，不是全集：只保证「常见机构能被识别」，不保证覆盖率。
+# 你的领域没命中时，直接往下加一行即可，不用改代码。
+# 欢迎 PR：按上面的规则补充，保留不同写法（中文名 / 英文名 / 缩写）。

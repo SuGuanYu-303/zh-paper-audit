@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.prescan-*.tmp
+
+# 本地生成的报告与存档：不要提交，避免把个人论文内容带进仓库
+预扫描-*.md
+前后对比*.md
+本轮对比*.md
+守恒核验*.md
+检测存档-*.json
+检测用-*.txt
+报告-*.md
+
+# examples/ 里的示例要保留
+!examples/*.md
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 个人稿子
+稿子*.md
+论文*.md
+原稿*.md
+改后*.md

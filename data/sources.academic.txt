@@ -1,0 +1,90 @@
+# 来源词表 · 学术出版 / 文献库 / 标准
+#
+# 一行一个。学术论文的引用来源与商业报告不同：
+# 主要是期刊、出版社、预印本库、标准号。
+#
+# 注意：本表只用于「来源守恒」（改写时不许把来源改丢），
+# 不判断引用是否真实。引用真伪属于 citation-check.md 的职责。
+
+# ---- 期刊与出版社 ----
+Nature
+Science
+Cell
+The Lancet
+NEJM
+JAMA
+BMJ
+IEEE
+ACM
+Elsevier
+爱思唯尔
+Springer
+施普林格
+Wiley
+Taylor & Francis
+SAGE
+Sage Publications
+Oxford University Press
+Cambridge University Press
+Annual Review
+PNAS
+arXiv
+SSRN
+ResearchGate
+PubMed
+Web of Science
+Scopus
+JSTOR
+
+# ---- 中文文献库 ----
+中国知网
+知网
+CNKI
+万方
+万方数据
+维普
+维普网
+超星
+读秀
+国家哲学社会科学文献中心
+CSSCI
+北大核心
+CSCD
+EI
+SCI
+SSCI
+
+# ---- 学位论文与会议 ----
+ProQuest
+EBSCO
+IEEE Xplore
+ACM Digital Library
+SpringerLink
+ScienceDirect
+dblp
+
+# ---- 标准 ----
+ISO
+IEC
+ITU
+GB/T
+GB
+JGJ
+JTG
+HJ
+YY
+ASTM
+ANSI
+DIN
+JIS
+BS
+EN
+UL
+CE
+RoHS
+
+#
+# ---- 关于这份词表 ----
+# 这是种子集，不是全集：只保证「常见机构能被识别」，不保证覆盖率。
+# 你的领域没命中时，直接往下加一行即可，不用改代码。
+# 欢迎 PR：按上面的规则补充，保留不同写法（中文名 / 英文名 / 缩写）。
